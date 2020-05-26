@@ -1,0 +1,134 @@
+:root {
+  --background-color: #2196f3;
+  --text-color: #ffffff;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--background-color);
+}
+.link:active {
+  color: blueviolet;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 86px;
+}
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  line-height: 1.18;
+  font-weight: 700;
+
+  display: inline-block;
+  padding-top: 48px;
+}
+.logo-one {
+  color: var(--background-color);
+}
+.logo-two {
+  color: var(--text-color);
+}
+.title {
+  color: black;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+button {
+  color: #212121;
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+
+  border-radius: 4px;
+  min-width: 29px;
+  text-align: center;
+  padding: 6px 22px;
+  border: 0px;
+  margin-top: 93px;
+  margin-bottom: 50px;
+}
+button:hover,
+button:focus {
+  color: var(--text-color);
+  background: var(--background-color);
+}
+
+.button-item {
+  display: flex;
+  justify-content: center;
+}
+
+.button-item .item + .item {
+  margin-left: 8px;
+}
+
+.section-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-item .item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.section-item .item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.example {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.88;
+
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.size {
+  margin: 20px 24px;
+}
+
+.window {
+  color: var(--text-color);
+  background: rgba(33, 150, 243, 0.9);
+  font-size: 18px;
+  line-height: 1.56;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 63px 24px;
+  width: 370px;
+}
+.section-title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+
+  margin-top: 20px;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,178 @@
+:root {
+  --background-color: #2196f3;
+  --text-color: #ffffff;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* стили шапки */
+
+.link {
+  color: #000000;
+  text-decoration: none;
+}
+.link:active {
+  color: blueviolet;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 86px;
+}
+
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  line-height: 1.18;
+  font-weight: 700;
+
+  display: inline-block;
+  padding-top: 48px;
+}
+.logo-one {
+  color: var(--background-color);
+}
+.logo-two {
+  color: var(--text-color);
+}
+
+/* Стили героя */
+
+.hero {
+  text-align: center;
+  background-image: url("../images/Headerimg.svg");
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-title {
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+
+  padding-top: 200px;
+  padding-bottom: 0px;
+  padding-left: 477px;
+  padding-right: 477px;
+  margin: 0px;
+}
+.link-hero {
+  background: var(--background-color);
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 700;
+
+  display: inline-block;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin-top: 46px;
+}
+/* cтили секций */
+
+.three {
+  color: var(--text-color);
+  background: rgba(47, 48, 58, 0.8);
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 27px;
+}
+
+.prioritiets {
+  display: flex;
+}
+
+.prioritiets .item + .item {
+  margin-left: 30px;
+}
+
+.name-text {
+  text-align: center;
+}
+
+.list a {
+  color: #afb1b8;
+  text-decoration: none;
+}
+.list a:hover,
+.list a:focus {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.list {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  padding-top: 94px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+
+.padding-title {
+  padding-top: 94px;
+}
+
+.title-three {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.paragraf {
+  font-size: 14px;
+  line-height: 1.71;
+
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.prof {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
