@@ -1,6 +1,7 @@
 :root {
   --background-color: #2196f3;
   --text-color: #ffffff;
+  --background-icon: #f5f4fa;
 }
 
 .container {
@@ -53,12 +54,18 @@
 
 .hero {
   text-align: center;
-  background-image: url("../images/Headerimg.svg");
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/Header.jpg);
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .hero-title {
   color: var(--text-color);
   font-weight: 900;
@@ -78,6 +85,7 @@
   color: var(--text-color);
   text-decoration: none;
   font-weight: 700;
+  text-align: center;
 
   display: inline-block;
   min-width: 200px;
@@ -124,8 +132,11 @@
 }
 
 .list {
+  display: inline-flex;
+  width: 206px;
+  margin-right: 32px;
+  margin-left: 32px;
   margin-top: 16px;
-  text-align: center;
 }
 
 .section-title {
@@ -149,6 +160,177 @@
 
   margin-top: 30px;
   margin-bottom: 0px;
+}
+
+.icon .anten::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-icon);
+  border-radius: 4px;
+  background-image: url(../images/anten.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon .clock::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-icon);
+  border-radius: 4px;
+  background-image: url(../images/clock.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon .diagram::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-icon);
+  border-radius: 4px;
+  background-image: url(../images/diagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon .astronaut::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-icon);
+  border-radius: 4px;
+  background-image: url(../images/astronaut.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.comanda {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.insta {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../images/instagram.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.twit {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../images/twitter.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.fb {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../images/facebook.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.in {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../images/linkedingrey.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.prioritiets .logoone::before {
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-image: url(../images/logo1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 94px;
+}
+
+.prioritiets .logotwo::before {
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-image: url(../images/logo2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.prioritiets .logotree::before {
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-image: url(../images/logo3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.prioritiets .logofour::before {
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-image: url(../images/logo4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.prioritiets .logofive::before {
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-image: url(../images/logo5.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.prioritiets .logosix::before {
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-image: url(../images/logo6.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .paragraf {

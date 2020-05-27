@@ -22,6 +22,9 @@ h3 {
 
 footer {
   background: #2f303a;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button {
@@ -100,6 +103,24 @@ button {
   height: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.contacts .mail::before {
+  display: inline-block;
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+  background-image: url(../images/envelope.svg);
+  content: "";
+}
+
+.contacts .phone::before {
+  display: inline-block;
+  width: 10px;
+  height: 14.94px;
+  margin-right: 10px;
+  background-image: url(../images/smartphone.svg);
+  content: "";
 }
 
 .adress {
