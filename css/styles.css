@@ -96,6 +96,17 @@
 }
 /* cтили секций */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0px;
+  padding: 0px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .three {
   color: var(--text-color);
   background: rgba(47, 48, 58, 0.8);
@@ -162,16 +173,16 @@
   margin-bottom: 0px;
 }
 
-.icon .anten::before {
-  display: block;
-  content: "";
+.icon {
+  margin-top: 94px;
+}
+
+.anten {
   width: 270px;
   height: 120px;
+
   background-color: var(--background-icon);
   border-radius: 4px;
-  background-image: url(../images/anten.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .icon .clock::before {
@@ -294,7 +305,7 @@
   background-position: center;
 }
 
-.prioritiets .logofour::before {
+.prioritiets .logofoure::before {
   display: inline-block;
   content: "";
   width: 170px;

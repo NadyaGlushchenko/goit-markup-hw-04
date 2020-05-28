@@ -105,22 +105,28 @@ button {
   padding-bottom: 32px;
 }
 
-.contacts .mail::before {
-  display: inline-block;
+.envelope {
   width: 16px;
   height: 11.2px;
   margin-right: 10px;
-  background-image: url(../images/envelope.svg);
-  content: "";
+  fill: #757575;
 }
 
-.contacts .phone::before {
-  display: inline-block;
+.envelope:hover,
+.envelope:focus {
+  fill: #2196f3;
+}
+
+.smartphone {
   width: 10px;
-  height: 14.94px;
+  height: 15px;
   margin-right: 10px;
-  background-image: url(../images/smartphone.svg);
-  content: "";
+  fill: #757575;
+}
+
+.smartphone:hover,
+.smartphone:focus {
+  fill: #2196f3;
 }
 
 .adress {
