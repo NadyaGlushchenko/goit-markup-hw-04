@@ -132,16 +132,6 @@
   text-align: center;
 }
 
-.list a {
-  color: #afb1b8;
-  text-decoration: none;
-}
-.list a:hover,
-.list a:focus {
-  color: var(--text-color);
-  background-color: var(--background-color);
-}
-
 .list {
   display: inline-flex;
   width: 206px;
@@ -177,48 +167,19 @@
   margin-top: 94px;
 }
 
-.anten {
-  width: 270px;
-  height: 120px;
-
+.backgr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--background-icon);
   border-radius: 4px;
+  width: 270px;
+  height: 120px;
 }
 
-.icon .clock::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background-color: var(--background-icon);
-  border-radius: 4px;
-  background-image: url(../images/clock.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon .diagram::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background-color: var(--background-icon);
-  border-radius: 4px;
-  background-image: url(../images/diagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon .astronaut::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background-color: var(--background-icon);
-  border-radius: 4px;
-  background-image: url(../images/astronaut.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.size {
+  width: 70px;
+  height: 70px;
 }
 
 .comanda {
@@ -227,43 +188,32 @@
   border-radius: 4px;
 }
 
-.insta {
-  display: inline-block;
+.socset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-  background-image: url(../images/instagram.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  border-radius: 50%;
   margin-right: 10px;
 }
 
-.twit {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-image: url(../images/twitter.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-right: 10px;
+.socset-icon {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  fill: #afb1b8;
+  display: block;
 }
 
-.fb {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-image: url(../images/facebook.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-right: 10px;
+.socset-icon:hover,
+.socset-icon:focus {
+  fill: var(--text-color);
 }
 
-.in {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-image: url(../images/linkedingrey.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+.socset:hover,
+.socset:focus {
+  background-color: var(--background-color);
 }
 
 .prioritiets .logoone::before {
