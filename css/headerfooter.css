@@ -155,15 +155,32 @@ button {
   padding-top: 58px;
   padding-bottom: 21px;
 }
-.network a {
-  color: var(--text-color);
-  background: rgba(255, 255, 255, 0.1);
+.network {
+  display: flex;
   text-decoration: none;
 }
-.network a:hover,
-.network a:focus {
-  background: var(--background-color);
+
+.backgrfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+  fill: var(--text-color);
+  border-radius: 50%;
 }
+
+.backgrfooter:hover {
+  background-color: var(--background-color);
+}
+
+.socset-icon-footer {
+  width: 20px;
+  height: 20px;
+}
+
 .button {
   color: var(--text-color);
   background: var(--background-color);

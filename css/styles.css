@@ -216,82 +216,79 @@
   background-color: var(--background-color);
 }
 
-.prioritiets .logoone::before {
-  display: inline-block;
-  content: "";
+.backgrlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  background-image: url(../images/logo1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   margin-bottom: 94px;
 }
 
-.prioritiets .logotwo::before {
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  background-image: url(../images/logo2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.backgrlogo:hover {
+  border: 1px solid #2196f3;
 }
 
-.prioritiets .logotree::before {
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  background-image: url(../images/logo3.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.logoone {
+  fill: #afb1b8;
+  width: 44px;
+  height: 49px;
 }
 
-.prioritiets .logofoure::before {
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  background-image: url(../images/logo4.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.logoone:hover {
+  fill: #2196f3;
 }
 
-.prioritiets .logofive::before {
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  background-image: url(../images/logo5.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.logotwo {
+  fill: #afb1b8;
+  width: 40px;
+  height: 52px;
 }
 
-.prioritiets .logosix::before {
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  background-image: url(../images/logo6.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.logotwo:hover {
+  fill: #2196f3;
+}
+
+.logothree {
+  fill: #afb1b8;
+  width: 41px;
+  height: 42.5px;
+}
+
+.logothree:hover {
+  fill: #2196f3;
+}
+
+.logofoure {
+  fill: #afb1b8;
+  width: 79px;
+  height: 42px;
+}
+
+.logofoure:hover {
+  fill: #2196f3;
+}
+
+.logofive {
+  fill: #afb1b8;
+  width: 59px;
+  height: 47px;
+}
+
+.logofive:hover {
+  fill: #2196f3;
+}
+
+.logosix {
+  fill: #afb1b8;
+  width: 88px;
+  height: 45px;
+}
+
+.logosix:hover {
+  fill: #2196f3;
 }
 
 .paragraf {
