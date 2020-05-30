@@ -23,6 +23,17 @@
   color: blueviolet;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0px;
+  padding: 0px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -84,6 +95,11 @@ button:focus {
 
 .button-item .item + .item {
   margin-left: 8px;
+}
+
+.item:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .section-item {

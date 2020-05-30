@@ -150,8 +150,7 @@ button {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-
-  display: inline-block;
+  display: inline-flex;
   padding-top: 58px;
   padding-bottom: 21px;
 }
@@ -182,6 +181,7 @@ button {
 }
 
 .button {
+  display: inline-flex;
   color: var(--text-color);
   background: var(--background-color);
   font-weight: 900;
@@ -196,6 +196,16 @@ button {
   margin-top: 21px;
   margin-bottom: 50px;
 }
+
+.button .icon-button {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+
+  background-image: url(../images/plain.svg);
+  background-size: contain;
+}
+
 .text {
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
@@ -234,8 +244,4 @@ button {
   border-radius: 4px;
   margin-top: 21px;
   margin-bottom: 50px;
-}
-
-.inputbut {
-  display: flex;
 }
