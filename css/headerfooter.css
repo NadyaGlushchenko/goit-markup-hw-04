@@ -195,6 +195,7 @@ button {
   padding: 10px 46px;
   margin-top: 21px;
   margin-bottom: 50px;
+  margin-left: 12px;
 }
 
 .button .icon-button {
@@ -235,6 +236,10 @@ button {
   width: 570px;
 }
 
+.inputbutton {
+  display: inline-flex;
+}
+
 .input {
   width: 358px;
   height: 50px;
@@ -244,4 +249,7 @@ button {
   border-radius: 4px;
   margin-top: 21px;
   margin-bottom: 50px;
+  background-color: #2f303a;
+  padding-left: 12px;
+  padding-right: 12px;
 }
