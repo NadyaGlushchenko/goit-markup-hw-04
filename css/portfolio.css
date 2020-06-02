@@ -104,6 +104,10 @@ button:focus {
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
+.item-shadow {
+  width: calc((100% - 30px * 3) / 3);
+}
+
 .section-item {
   display: flex;
   flex-wrap: wrap;
@@ -140,7 +144,6 @@ button:focus {
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 63px 24px;
-  width: 370px;
 }
 .section-title {
   font-size: 18px;
