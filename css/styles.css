@@ -76,8 +76,7 @@
 
   padding-top: 200px;
   padding-bottom: 0px;
-  padding-left: 477px;
-  padding-right: 477px;
+
   margin: 0px;
 }
 .link-hero {
@@ -210,9 +209,10 @@
   display: block;
 }
 
-.socset-icon:hover,
-.socset-icon:focus {
+.socset:hover .socset-icon,
+.socset:focus .socset-icon {
   fill: var(--text-color);
+  background-color: var(--background-color);
 }
 
 .socset:hover,
@@ -231,7 +231,8 @@
   margin-bottom: 94px;
 }
 
-.backgrlogo:hover {
+.backgrlogo:hover,
+.backgrlogo:focus {
   border: 1px solid #2196f3;
 }
 
@@ -241,7 +242,8 @@
   height: 49px;
 }
 
-.logoone:hover {
+.backgrlogo:hover .logoone,
+.backgrlogo:focus .logoone {
   fill: #2196f3;
 }
 
@@ -251,7 +253,8 @@
   height: 52px;
 }
 
-.logotwo:hover {
+.backgrlogo:hover .logotwo,
+.backgrlogo:focus .logotwo {
   fill: #2196f3;
 }
 
@@ -261,7 +264,8 @@
   height: 42.5px;
 }
 
-.logothree:hover {
+.backgrlogo:hover .logothree,
+.backgrlogo:focus .logothree {
   fill: #2196f3;
 }
 
@@ -271,7 +275,8 @@
   height: 42px;
 }
 
-.logofoure:hover {
+.backgrlogo:hover .logofoure,
+.backgrlogo:focus .logofoure {
   fill: #2196f3;
 }
 
@@ -281,7 +286,8 @@
   height: 47px;
 }
 
-.logofive:hover {
+.backgrlogo:hover .logofive,
+.backgrlogo:focus .logofive {
   fill: #2196f3;
 }
 
@@ -291,7 +297,8 @@
   height: 45px;
 }
 
-.logosix:hover {
+.backgrlogo:hover .logosix,
+.backgrlogo:focus .logosix {
   fill: #2196f3;
 }
 

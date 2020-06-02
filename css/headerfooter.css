@@ -2,6 +2,7 @@
 :root {
   --text-color: #ffffff;
   --background-color: #2196f3;
+  --text-grey: #757575;
 }
 
 body {
@@ -22,13 +23,18 @@ h3 {
 
 footer {
   background: #2f303a;
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
 
 button {
   font-family: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .site-nav {
@@ -92,15 +98,14 @@ button {
 }
 
 .contacts .link {
-  color: #757575;
+  color: var(--text-grey);
   text-decoration: none;
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
 
   display: block;
-  min-width: 142px;
-  height: 16px;
+
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -109,11 +114,11 @@ button {
   width: 16px;
   height: 11.2px;
   margin-right: 10px;
-  fill: #757575;
+  fill: var(--text-grey);
 }
 
-.envelope:hover,
-.envelope:focus {
+.nav-icon:hover .link .envelope,
+.nav-icon:focus .link .envelope {
   fill: #2196f3;
 }
 
@@ -121,11 +126,11 @@ button {
   width: 10px;
   height: 15px;
   margin-right: 10px;
-  fill: #757575;
+  fill: var(--text-grey);
 }
 
-.smartphone:hover,
-.smartphone:focus {
+.nav-icon:hover .link .smartphone,
+.nav-icon:focus .link .smartphone {
   fill: #2196f3;
 }
 
