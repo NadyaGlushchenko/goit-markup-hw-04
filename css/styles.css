@@ -127,10 +127,6 @@
   display: flex;
 }
 
-li .size-item {
-  width: calc((100% - 30px * 3) / 4);
-}
-
 .prioritiets .item + .item {
   margin-left: 30px;
 }
@@ -210,6 +206,15 @@ li .size-item {
   margin-bottom: 94px;
 }
 
+.socset-item {
+  margin-bottom: 24px;
+  margin-right: 10px;
+}
+
+.socset-item:nth-child(4) {
+  margin-right: 0px;
+}
+
 .socset {
   display: flex;
   justify-content: center;
@@ -217,7 +222,6 @@ li .size-item {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  margin-right: 10px;
 }
 
 .socset-icon {
