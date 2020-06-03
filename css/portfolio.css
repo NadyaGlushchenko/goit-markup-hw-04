@@ -67,6 +67,10 @@
   margin-bottom: 0px;
 }
 
+.border {
+  border-top: 1px solid #ececec;
+}
+
 button {
   color: #212121;
   background: #f5f4fa;
@@ -106,11 +110,13 @@ button:focus {
 
 .item-shadow {
   width: calc((100% - 30px * 3) / 3);
+  border: 1px solid #eeeeee;
 }
 
 .section-item {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 94px;
 }
 
 .section-item .item {
